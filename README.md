@@ -189,7 +189,7 @@ If you want to see how to create such certificate, read the next part.
 
 This is an example for creating "gosredirector.ea.com" certificate (keep in mind that you have to set the right values for your Issuer and Subject in order to make it work, otherwise the certificate verification will fail).
 
-I will be using OpenSSL to create the certificate. [You can also create such certificate using C#](https://github.com/valters-tomsons/arcadia/blob/main/src/server/Fesl/ProtoSslCertGenerator.cs) (by [@valters-tomsons](https://github.com/valters-tomsons)).
+I will be using OpenSSL to create the certificate. [You can also create such certificate using C#](https://github.com/valters-tomsons/arcadia/blob/main/src/server/EA/CertGenerator.cs) (by [@valters-tomsons](https://github.com/valters-tomsons)).
 
 ```bat
 @echo off
